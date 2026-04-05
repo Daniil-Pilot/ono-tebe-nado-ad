@@ -5,7 +5,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   color: #000000;
   line-height: 1.15;
   background-color: #ffffff;
@@ -114,10 +114,10 @@ button {
 .cover__title {
   position: relative;
   z-index: 2;
-  margin: 0 0 136px;
+  margin: 0 0 40px;
   font-size: 100px;
   font-weight: 700;
-  line-height: 115px;
+  line-height: 1.15;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #ffffff;
@@ -125,7 +125,6 @@ button {
 
 .cover__title-word {
   display: block;
-  line-height: 115px;
 }
 
 .aligned-text {
@@ -147,16 +146,16 @@ button {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  gap: 78px;
 }
 
 .cover__description-text {
   font-size: 22px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.27;
   color: #ffffff;
   text-transform: uppercase;
   word-spacing: 18px;
-  letter-spacing: 0.3em;
 }
 
 .bet-button {
@@ -234,13 +233,13 @@ button {
 .card__title {
   position: relative;
   z-index: 2;
-  margin: 0 0 20px;
+  margin: 0 0 12px;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
   text-decoration: underline;
+  text-underline-offset: 4px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 .card__text {
@@ -249,8 +248,8 @@ button {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
-  color: #ffffff;
+  line-height: 1.2;
+  opacity: 0.9;
   max-width: 260px;
 }
 
@@ -312,7 +311,7 @@ button {
 .about__text p {
   margin: 0;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 /* ========== FOOTER ========== */
@@ -339,17 +338,17 @@ button {
 .footer__menu-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 20px;
   text-align: center;
 }
 
 .footer__menu-link {
   font-size: 18px;
-  line-height: 35.7px;
+  line-height: 21px;
   color: #000000;
   text-transform: lowercase;
   border-bottom: 1px solid #000000;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   width: fit-content;
   margin: 0 auto;
 }
@@ -376,7 +375,7 @@ button {
 }
 
 .footer__social-icon {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
 }
